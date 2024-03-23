@@ -10,5 +10,5 @@ Run the following command to install necessary packages:\
 ### Inference
 ```python translate.py```
 ### Training
-We use 2 GPUs in the distributed training. We have not tested other number of GPUs, but it should work if the number of GPUs >= 2.\
+To train the model, you need to download the [dataset](https://huggingface.co/datasets/KomeijiForce/Text2Emoji) from hugging face and put the csv file into the directory of **dataset/Text2Emoji**. You do NOT need to run ```split_data.py``` to split the dataset into train/val/test, which is only used to train an encoder only (e.g. BERT) classifier on emoji types. We use 2 GPUs in the distributed training. We have not tested other number of GPUs, but it should work if the number of GPUs >= 2.\
 ```python finetune_bart.py```

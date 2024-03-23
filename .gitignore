@@ -2,3 +2,6 @@ model.safetensors
 models/
 pretrain-models/
 text2emoji.csv
+text2emoji_test.csv
+text2emoji_train.csv
+text2emoji_val.csv
