@@ -1,0 +1,4 @@
+model.safetensors
+models/
+pretrain-models/
+text2emoji.csv
